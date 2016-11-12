@@ -1,0 +1,12 @@
+-------------Running WordCount------------
+   29304
+---------Using Grep for Human counts------
+2244
+--------Homo sapiens----------------------
+2244
+-----Finding the Minimum Length-----------
+10
+------Finding the Maximum Length----------
+7968
+-------Unique Species---------------------
+    3492
