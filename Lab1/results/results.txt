@@ -10,3 +10,20 @@
 7968
 -------Unique Species---------------------
     3492
+-------------DNA-Alignment------------------
+------------instaling-----------------------
+------------Aligning------------------------
+Bos_taurus.Btau_4.0.50
+CanisFamiliaris.BROADD2.50
+Danio_rerio.ZFISH7.50
+Equus_caballus.EquCab2.50
+Gallus_gallus.WASHUC2.50
+Homo_sapiens.NCBI36.50
+LoxodantaAfricana
+Macaca_mulatta.MMUL_1.50
+Monodelphis_domestica.BROADO5.50
+Mus_musculus.NCBIM37.50
+Ornithorhynchus_anatinus.OANA5.50
+Rattus_norvegicus.RGSC3.4.50
+Takifugu_rubripes.FUGU4.50
+Tenrec
