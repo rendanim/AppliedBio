@@ -21,12 +21,10 @@ def printName(name):
 def printsequence(seq):
     olines = len(seq)//n_max
     r=len(seq) % n_max
-    
-    for i in range(olines+1):
-        print(seq[(i*n_max):(((i+1)*n_max)-1)])
-    if(r>0):    
-        print(seq[(olines*n_max):r])
-
+    for i in range(olines):
+        print(seq[(i*n_max):(((i+1)*n_max))])
+    if(r>0):
+        print(seq[olines*n_max:olines*n_max+r]) 
 def main():
     readstockhom() 
 
