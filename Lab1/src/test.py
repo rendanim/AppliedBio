@@ -3,7 +3,7 @@ import sys
 
 dnaDictionary = {}
 
-# Loads the DNA codon table and converts it into a dictionary
+
 def loadSTable():
 	dnafile = open("stddna.txt")
 	for line in dnafile:
@@ -11,13 +11,13 @@ def loadSTable():
 		l=len(llist)
 		for key in llist[0:l-1]:
 			dnaDictionary[key]=llist[l-1]
+	#print(dnaDictionary['TAA'])
 
-
-#reads the input file and allots them to appropriate methods
 def readInput():
 	dnaSeq = ""
-	fileInput = input("Write input file name here:")
-	file = open(fileInput)
+	#fileInput = input("Write input file name here:")
+	#file = open(fileInput)
+	file = open("an_exon.fa.txt")
 	#file = open("translationtest.dna")
 	DNASeq = ""
 	lines = file.readlines()
@@ -35,10 +35,11 @@ def readInput():
 		else:
 			DNASeq+=line.replace('\n','')
 			if line is last:	
+			#	print (DNASeq)
 				print(names[i-1])
 				translateDNA(DNASeq)	
 		
-# translates the DNA sequence into proteins using the DNA codon table
+	#print(names)
 def translateDNA(seq):
 	protSeq = ""
 	flag=0	
@@ -49,27 +50,23 @@ def translateDNA(seq):
 			#pdb.set_trace()
 			if value == 'STOP':
 				i = i+1
-				protSeq += '#'
+				protSeq+='#'
 				continue
 			else:
 				i = i+3
 				protSeq += value
-	printSeq(protSeq)
-		
+		printSeq (protSeq)	
 
-# finds and prints the protein sequence corresponding to the ORF
-def printSeq(protSeq):
-	listseq=protSeq.split('#')
-	print(max(listseq,key=len))
-		
-
-# reads the value from the dictionary for each codon	
+	
 def mapping(codon):
 	if codon.upper() in dnaDictionary:
 		return dnaDictionary[codon.upper()]
 	else:
 		return 'X'
 	
+def printSeq(seq):
+	listSeq = seq.split('#')
+	print (max(listSeq, key=len))
 
 def main():
 	loadSTable()
