@@ -15,9 +15,9 @@ def loadSTable():
 
 def readInput():
 	dnaSeq = ""
-	#fileInput = input("Write input file name here:")
-	#file = open(fileInput)
-	file = open("translationtest.dna")
+	fileInput = input("Write input file name here:")
+	file = open(fileInput)
+	#file = open("translationtest.dna")
 	DNASeq = ""
 	lines = file.readlines()
 	last = lines[-1]
@@ -51,12 +51,17 @@ def translateDNA(seq):
 			#pdb.set_trace()
 			if value == 'STOP':
 				i = i+1
+				protSeq += '#'
 				continue
 			else:
 				i = i+3
 				protSeq += value
-		print (protSeq)	
+	printSeq(protSeq)
+		
 
+def printSeq(protSeq):
+	listseq=protSeq.split('#')
+	print(max(listseq,key=len))	
 	
 def mapping(codon):
 	if codon.upper() in dnaDictionary:
