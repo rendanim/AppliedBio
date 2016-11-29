@@ -104,6 +104,11 @@ def main():
     elif len(sys.argv[1:]) < 2:
          sys.stderr.write("Error: Too few arguments \n")
          sys.exit(-1)
+    try:
+         f=open(sys.argv[1], 'r')
+    except IOError:
+            sys.stderr.write("Error: " + sys.argv[1]+ " was not found. \n")
+            sys.exit(-1)     
     prepboot()
     os.remove('intree') 
     os.remove('outfile') 

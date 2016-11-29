@@ -12,5 +12,5 @@ for file in glob.glob("*.fna"):
     for line in f:
         if(lines>0):
             chars += len(line)
-        lines+=line    #print(chars)
+        lines+=1    #print(chars)
     print('Length of Genome: '+str(chars)+' Lines: '+str(lines))

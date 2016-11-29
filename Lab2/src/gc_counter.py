@@ -9,7 +9,7 @@ def readfiles(files,nfiles):
     Arguments: files - list of files
                nfiles -number of files'''
     for i in range(nfiles):
-        print('Reading---'+files[i])
+       # print('Reading---'+files[i])
         f=open(files[i], 'r')
         #print(f.readline())
         
@@ -30,12 +30,14 @@ def gc_count(line):
     '''Count GC in each line sent by readfiles'''
     gc=0
     lc=0
+    #gc=line.count('G')+line.count('C')
+    #lc=len(line)
     for l in line:
         if(l=='G'or l=='C'): 
-            '''check G OR C'''
+        
             gc+=1
         lc+=1
-        '''Return count for the line'''
+    
     return lc,gc
 
 def main():

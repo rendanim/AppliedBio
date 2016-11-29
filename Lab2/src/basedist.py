@@ -75,5 +75,20 @@ def main():
     readfiles(files,nfiles)
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv[1:]) == 0:
+        sys.stderr.write("Error: No files were provided. Provide at least 2 FASTA files. \n")
+        sys.exit(-1)
+    else:
+        files = sys.argv[1:]
+        for filename in files:
+            if '.fa' not in filename:
+                sys.stderr.write(
+                    "Error: Non FASTA file detected. Make sure the files have compatible file endings (.fa). \n")
+                sys.exit(-1)
+            try:
+                 f=open(filename, 'r')
+            except IOError:
+                sys.stderr.write("Error: " + filename + " was not found. \n")
+                sys.exit(-1)
+        main()
                
