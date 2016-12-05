@@ -19,13 +19,13 @@ def kleek():
             print('This sequence contains KLEEK')
             print(prot_file[i].seq)
             j += 1
-        else:
+        '''else:
             print('>',end='')
             print(prot_file[i].id,end='\t')
             print('There is no KLEEK-like motif in this sequence')
             #print(prot_file[i].seq)
        
-    print(j)
+    print(j)'''
             
 
 def main():

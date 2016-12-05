@@ -1,0 +1,1443 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.5.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_34033</BlastOutput_query-ID>
+  <BlastOutput_query-def>CST3</BlastOutput_query-def>
+  <BlastOutput_query-len>146</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_34033</Iteration_query-ID>
+  <Iteration_query-def>CST3</Iteration_query-def>
+  <Iteration_query-len>146</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|14278690|pdb|1G96|A</Hit_id>
+  <Hit_def>Chain A, Human Cystatin C; Dimeric Form With 3d Domain Swapping &gt;gi|73535285|pdb|1TIJ|A Chain A, 3d Domain-Swapped Human Cystatin C With Amyloid-Like Intermolecular Beta-Sheets &gt;gi|73535286|pdb|1TIJ|B Chain B, 3d Domain-Swapped Human Cystatin C With Amyloid-Like Intermolecular Beta-Sheets</Hit_def>
+  <Hit_accession>1G96_A</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.062</Hsp_bit-score>
+      <Hsp_score>645</Hsp_score>
+      <Hsp_evalue>3.75737e-88</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTFSKSTCQDA</Hsp_qseq>
+      <Hsp_hseq>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFLDVELGRTTCTKTQPNLDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTLSKSTCQDA</Hsp_hseq>
+      <Hsp_midline>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYF DVELGRTTCTKTQPN DNCPFHDQPHLKRKAFCSFQIYAVPWQGTMT SKSTCQDA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|364505964|pdb|3PS8|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of L68v Mutant Of Human Cystatin C &gt;gi|378792101|pdb|3QRD|A Chain A, Crystal Structure Of L68v Mutant Of Human Cystatin C &gt;gi|378792102|pdb|3QRD|B Chain B, Crystal Structure Of L68v Mutant Of Human Cystatin C &gt;gi|378792103|pdb|3QRD|C Chain C, Crystal Structure Of L68v Mutant Of Human Cystatin C &gt;gi|378792104|pdb|3QRD|D Chain D, Crystal Structure Of L68v Mutant Of Human Cystatin C</Hit_def>
+  <Hit_accession>3PS8_A</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.521</Hsp_bit-score>
+      <Hsp_score>641</Hsp_score>
+      <Hsp_evalue>1.15086e-87</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTFSKSTCQDA</Hsp_qseq>
+      <Hsp_hseq>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFLDVEVGRTTCTKTQPNLDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTLSKSTCQDA</Hsp_hseq>
+      <Hsp_midline>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYF DVE+GRTTCTKTQPN DNCPFHDQPHLKRKAFCSFQIYAVPWQGTMT SKSTCQDA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|313103877|pdb|3NX0|A</Hit_id>
+  <Hit_def>Chain A, Hinge-Loop Mutation Can Be Used To Control 3d Domain Swapping And Amyloidogenesis Of Human Cystatin C &gt;gi|313103878|pdb|3NX0|B Chain B, Hinge-Loop Mutation Can Be Used To Control 3d Domain Swapping And Amyloidogenesis Of Human Cystatin C</Hit_def>
+  <Hit_accession>3NX0_A</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.366</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>4.20157e-87</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTFSKSTCQDA</Hsp_qseq>
+      <Hsp_hseq>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQINAGVNYFLDVELGRTTCTKTQPNLDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTLSKSTCQDA</Hsp_hseq>
+      <Hsp_midline>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQI AGVNYF DVELGRTTCTKTQPN DNCPFHDQPHLKRKAFCSFQIYAVPWQGTMT SKSTCQDA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|399124842|pdb|3SVA|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of V57d Mutant Of Human Cystatin C</Hit_def>
+  <Hit_accession>3SVA_A</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.98</Hsp_bit-score>
+      <Hsp_score>637</Hsp_score>
+      <Hsp_evalue>5.40789e-87</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTFSKSTCQDA</Hsp_qseq>
+      <Hsp_hseq>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIDAGVNYFLDVELGRTTCTKTQPNLDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTLSKSTCQDA</Hsp_hseq>
+      <Hsp_midline>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQI AGVNYF DVELGRTTCTKTQPN DNCPFHDQPHLKRKAFCSFQIYAVPWQGTMT SKSTCQDA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|388603918|pdb|3S67|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of V57p Mutant Of Human Cystatin C</Hit_def>
+  <Hit_accession>3S67_A</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.595</Hsp_bit-score>
+      <Hsp_score>636</Hsp_score>
+      <Hsp_evalue>6.88459e-87</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTFSKSTCQDA</Hsp_qseq>
+      <Hsp_hseq>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIPAGVNYFLDVELGRTTCTKTQPNLDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTLSKSTCQDA</Hsp_hseq>
+      <Hsp_midline>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQI AGVNYF DVELGRTTCTKTQPN DNCPFHDQPHLKRKAFCSFQIYAVPWQGTMT SKSTCQDA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|289526592|pdb|3GAX|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Monomeric Human Cystatin C Stabilized A Aggregation &gt;gi|289526593|pdb|3GAX|B Chain B, Crystal Structure Of Monomeric Human Cystatin C Stabilized A Aggregation</Hit_def>
+  <Hit_accession>3GAX_A</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.284</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>5.66134e-86</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTFSKSTCQDA</Hsp_qseq>
+      <Hsp_hseq>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRACQVVRARKQIVAGVNYFLDVELCRTTCTKTQPNLDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTLSKSTCQDA</Hsp_hseq>
+      <Hsp_midline>SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRA QVVRARKQIVAGVNYF DVEL RTTCTKTQPN DNCPFHDQPHLKRKAFCSFQIYAVPWQGTMT SKSTCQDA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|55669622|pdb|1R4C|A</Hit_id>
+  <Hit_def>Chain A, N-Truncated Human Cystatin C; Dimeric Form With 3d Domain Swapping &gt;gi|55669623|pdb|1R4C|B Chain B, N-Truncated Human Cystatin C; Dimeric Form With 3d Domain Swapping &gt;gi|55669624|pdb|1R4C|C Chain C, N-Truncated Human Cystatin C; Dimeric Form With 3d Domain Swapping &gt;gi|55669625|pdb|1R4C|D Chain D, N-Truncated Human Cystatin C; Dimeric Form With 3d Domain Swapping &gt;gi|55669626|pdb|1R4C|E Chain E, N-Truncated Human Cystatin C; Dimeric Form With 3d Domain Swapping &gt;gi|55669627|pdb|1R4C|F Chain F, N-Truncated Human Cystatin C; Dimeric Form With 3d Domain Swapping &gt;gi|55669628|pdb|1R4C|G Chain G, N-Truncated Human Cystatin C; Dimeric Form With 3d Domain Swapping &gt;gi|55669629|pdb|1R4C|H Chain H, N-Truncated Human Cystatin C; Dimeric Form With 3d Domain Swapping</Hit_def>
+  <Hit_accession>1R4C_A</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.032</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>2.18085e-80</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>GGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTFSKSTCQDA</Hsp_qseq>
+      <Hsp_hseq>GGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFLDVELGRTTCTKTQPNLDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTLSKSTCQDA</Hsp_hseq>
+      <Hsp_midline>GGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYF DVELGRTTCTKTQPN DNCPFHDQPHLKRKAFCSFQIYAVPWQGTMT SKSTCQDA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|49258768|pdb|1RN7|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Human Cystatin D &gt;gi|49258770|pdb|1ROA|A Chain A, Structure Of Human Cystatin D</Hit_def>
+  <Hit_accession>1RN7_A</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>5.85801e-44</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>GSSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASN-DMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTFSKSTCQ</Hsp_qseq>
+      <Hsp_hseq>GSASAQSRTLAGGIHATDLNDKSVQRALDFAISEYNKVINKDEYYSRPLQVMAAYQQIVGGVNYYFNVKFGRTTCTKSQPNLDNCPFNDQPKLKEEEFCSFQINEVPWEDKISILNYKCR</Hsp_hseq>
+      <Hsp_midline>GS+  +   L GG     + ++ V+RALDFA+ EYNK  N D Y+SR LQV+ A +QIV GVNY+F+V+ GRTTCTK+QPN DNCPF+DQP LK + FCSFQI  VPW+  ++     C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|93278504|pdb|1YVB|I</Hit_id>
+  <Hit_def>Chain I, The Plasmodium Falciparum Cysteine Protease Falcipain-2</Hit_def>
+  <Hit_accession>1YVB_I</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>5.45434e-37</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>RLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTFSKSTCQ</Hsp_qseq>
+      <Hsp_hseq>RLLGAPVPVDENDEGLQRALQFAMAEYNRASNDKYSSRVVRVISAKRQLVSGIKYILQVEIGRTTCPKSSGDLQSCEFHDEPEMAKYTTCTFVVYSIPWLNQIKLLESKCQ</Hsp_hseq>
+      <Hsp_midline>RL+G P+     +EG++RAL FA+ EYN+ASND Y SR ++V+ A++Q+V+G+ Y   VE+GRTTC K+  +  +C FHD+P + +   C+F +Y++PW   +   +S CQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|157829747|pdb|1A90|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Mutant Chicken Egg White Cystatin, Nmr, 31 Structures</Hit_def>
+  <Hit_accession>1A90_A</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>4.99642e-36</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTFSKSTCQ</Hsp_qseq>
+      <Hsp_hseq>GAPVPVDENDEGLQRALQFAIAEYNRASNDKYSSRVVRVISAKRQLVSGIKYILQVEIGRTTCPKSSGDLQSCEFHDEPELAKYTTCTFVVYSIPWLNQIKLLESKCQ</Hsp_hseq>
+      <Hsp_midline>G P+     +EG++RAL FA+ EYN+ASND Y SR ++V+ A++Q+V+G+ Y   VE+GRTTC K+  +  +C FHD+P L +   C+F +Y++PW   +   +S CQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|493925|pdb|1CEW|I</Hit_id>
+  <Hit_def>Chain I, The 2.0 Angstroms X-Ray Crystal Structure Of Chicken Egg White Cystatin And Its Possible Mode Of Interaction With Cysteine Proteinases &gt;gi|157829704|pdb|1A67|A Chain A, Chicken Egg White Cystatin Wildtype, Nmr, 16 Structures</Hit_def>
+  <Hit_accession>1CEW_I</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>2.89722e-35</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTFSKSTCQ</Hsp_qseq>
+      <Hsp_hseq>GAPVPVDENDEGLQRALQFAMAEYNRASNDKYSSRVVRVISAKRQLVSGIKYILQVEIGRTTCPKSSGDLQSCEFHDEPEMAKYTTCTFVVYSIPWLNQIKLLESKCQ</Hsp_hseq>
+      <Hsp_midline>G P+     +EG++RAL FA+ EYN+ASND Y SR ++V+ A++Q+V+G+ Y   VE+GRTTC K+  +  +C FHD+P + +   C+F +Y++PW   +   +S CQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|99031962|pdb|2CH9|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Dimeric Human Cystatin F</Hit_def>
+  <Hit_accession>2CH9_A</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>6.02519e-18</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>GGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTKTQP-NFDNCPFHDQPHLKRKAFCSFQIYAVPW</Hsp_qseq>
+      <Hsp_hseq>GFPKTIKTNDPGVLQAARYSVEKFNNCTNDMFLFKESRITRALVQIVKGLKYMLEVEIGRTTCKKNQHLRLDDCDFQTNHTLKQTLSCYSEVWVVPW</Hsp_hseq>
+      <Hsp_midline>G P      + GV +A  ++V ++N  +NDM+  +  ++ RA  QIV G+ Y  +VE+GRTTC K Q    D+C F     LK+   C  +++ VPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|757819072|pdb|4N6M|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Human Cystatin E/m Produced In Lexsy &gt;gi|757819073|pdb|4N6M|B Chain B, Crystal Structure Of Human Cystatin E/m Produced In Lexsy</Hit_def>
+  <Hit_accession>4N6M_A</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.18098e-15</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>RLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTKTQPNFDN-----CPFHDQPHLKRKAFCSFQIYAVPWQGTMTFSKSTC</Hsp_qseq>
+      <Hsp_hseq>RMVGELRDLSPDDPQVQKAAQAAVASYNMGSNSIYYFRDTHIIKAQSQLVAGIKYFLTMEMGSTDCRKTRVTGDHVDLTTCPLAAGAQ-QEKLRCDFEVLVVPWQNSSQLLKHNC</Hsp_hseq>
+      <Hsp_midline>R+VG   D S ++  V++A   AV  YN  SN +Y+ R   +++A+ Q+VAG+ YF  +E+G T C KT+   D+     CP       + K  C F++  VPWQ +    K  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|756142447|pdb|4N6O|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of Reduced Legumain In Complex With Cystatin E/m &gt;gi|757819071|pdb|4N6L|A Chain A, Crystal Structure Of Human Cystatin E/m &gt;gi|757819075|pdb|4N6N|B Chain B, Crystal Structure Of Oxidized Legumain In Complex With Cystatin E/m</Hit_def>
+  <Hit_accession>4N6O_B</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.21721e-15</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>RLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTKTQPNFDN-----CPFHDQPHLKRKAFCSFQIYAVPWQGTMTFSKSTC</Hsp_qseq>
+      <Hsp_hseq>RMVGELRDLSPDDPQVQKAAQAAVASYNMGSNSIYYFRDTHIIKAQSQLVAGIKYFLTMEMGSTDCRKTRVTGDHVDLTTCPLAAGAQ-QEKLRCDFEVLVVPWQNSSQLLKHNC</Hsp_hseq>
+      <Hsp_midline>R+VG   D S ++  V++A   AV  YN  SN +Y+ R   +++A+ Q+VAG+ YF  +E+G T C KT+   D+     CP       + K  C F++  VPWQ +    K  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|576865046|pdb|4IT7|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Al-cpi &gt;gi|576865047|pdb|4IT7|B Chain B, Crystal Structure Of Al-cpi &gt;gi|576865048|pdb|4IT7|C Chain C, Crystal Structure Of Al-cpi &gt;gi|576865049|pdb|4IT7|D Chain D, Crystal Structure Of Al-cpi</Hit_def>
+  <Hit_accession>4IT7_A</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.06548e-09</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>GGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTFSKSTCQDA</Hsp_qseq>
+      <Hsp_hseq>GGFSTKDVNDPKIQALAGKALQRINAASNDLFQQTIVKVISAKTQVVAGTNTVLELLIAPTSCRKNETSAGNCEAVSNGT---KQICTVAIWEKPWENFEEITIKECKSA</Hsp_hseq>
+      <Hsp_midline>GG     V +  ++     A+   N ASND++    ++V+ A+ Q+VAG N   ++ +  T+C K + +  NC          K  C+  I+  PW+     +   C+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|299856752|pdb|3L0R|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Salivary Cystatin From The Soft Tick Ornithodoros Moubata &gt;gi|299856753|pdb|3L0R|B Chain B, Crystal Structure Of Salivary Cystatin From The Soft Tick Ornithodoros Moubata</Hit_def>
+  <Hit_accession>3L0R_A</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.000311558</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>YHSRALQVVRARKQIVAGVNYFFDVELGRTTCT--KTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTFSKSTCQ</Hsp_qseq>
+      <Hsp_hseq>FYDTVVTVKEVETQVVAGMNYKLTIEISPSVCKIGEVQYSAEQCVPKD---AQQKSTCVAVIYHVPWQNQKSVTSYRCE</Hsp_hseq>
+      <Hsp_midline>++   + V     Q+VAG+NY   +E+  + C   + Q + + C   D    ++K+ C   IY VPWQ   + +   C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|13096692|pdb|1EQK|A</Hit_id>
+  <Hit_def>Chain A, Solution Structure Of Oryzacystatin-I, A Cysteine Proteinase Inhibitor Of The Rice, Oryza Sativa L. Japonica</Hit_def>
+  <Hit_accession>1EQK_A</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.000923364</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GGPMDASVEEEGVRRALD------FAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELGRTTCTK</Hsp_qseq>
+      <Hsp_hseq>GGPVLGGVEPVGNENDLHLVDLARFAVTEHNKKANSLLEFEKL--VSVKQQVVAGTLYYFTIEVKEGDAKK</Hsp_hseq>
+      <Hsp_midline>GGP+   VE  G    L       FAV E+NK +N +     L  V  ++Q+VAG  Y+F +E+      K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|428698016|pdb|3UL5|A</Hit_id>
+  <Hit_def>Chain A, Saccharum Officinarum Canecystatin-1 In Space Group C2221 &gt;gi|428698017|pdb|3UL5|B Chain B, Saccharum Officinarum Canecystatin-1 In Space Group C2221 &gt;gi|428698018|pdb|3UL5|C Chain C, Saccharum Officinarum Canecystatin-1 In Space Group C2221 &gt;gi|428698019|pdb|3UL5|D Chain D, Saccharum Officinarum Canecystatin-1 In Space Group C2221 &gt;gi|429544191|pdb|3UL6|A Chain A, Saccharum Officinarum Canecystatin-1 In Space Group P6422 &gt;gi|429544192|pdb|3UL6|B Chain B, Saccharum Officinarum Canecystatin-1 In Space Group P6422</Hit_def>
+  <Hit_accession>3UL5_A</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.0533874</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>AGSSPGKPPRLVGGPMDASVEEEGVRRALD---FAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVEL</Hsp_qseq>
+      <Hsp_hseq>AEAHNGRRVGMVGDVRDAPAGHENDLEAIELARFAVAEHNSKTNAMLEFERL--VKVRHQVVAGTMHHFTVQV</Hsp_hseq>
+      <Hsp_midline>A +  G+   +VG   DA    E    A++   FAV E+N  +N M     L  V+ R Q+VAG  + F V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|835020490|pdb|4ZM8|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Sialostatin L &gt;gi|835020491|pdb|4ZM8|B Chain B, Crystal Structure Of Sialostatin L &gt;gi|835020492|pdb|4ZM8|C Chain C, Crystal Structure Of Sialostatin L &gt;gi|835020493|pdb|4ZM8|D Chain D, Crystal Structure Of Sialostatin L</Hit_def>
+  <Hit_accession>4ZM8_A</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.102736</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>QVVRARKQIVAGVNYFFDVELGRTTCTKTQP-NFDNC-PFHDQPH</Hsp_qseq>
+      <Hsp_hseq>EVVKVETQVVAGTNYRLTLKVAESTCELTSTYNKDTCLPKADAAH</Hsp_hseq>
+      <Hsp_midline>+VV+   Q+VAG NY   +++  +TC  T   N D C P  D  H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|307776490|pdb|3LH4|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Sialostatin L2</Hit_def>
+  <Hit_accession>3LH4_A</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>0.773253</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>LQVVRARKQIVAGVNYFFDVELGRTTCTKTQP-NFDNC</Hsp_qseq>
+      <Hsp_hseq>VEVLKVETQTVAGTNYRLTLKVAESTCELTSTYNKDTC</Hsp_hseq>
+      <Hsp_midline>++V++   Q VAG NY   +++  +TC  T   N D C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|15988457|pdb|1GD4|A</Hit_id>
+  <Hit_def>Chain A, Solution Structure Of P25s Cystatin A</Hit_def>
+  <Hit_accession>1GD4_A</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.990251</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>VRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELG</Hsp_qseq>
+      <Hsp_hseq>IQEIVDKVKSQLEEKTNETYGK--LEAVQYKTQVVAGTNYYIKVRAG</Hsp_hseq>
+      <Hsp_midline>++  +D    +  + +N+ Y    L+ V+ + Q+VAG NY+  V  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|285803123|pdb|2W9P|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Potato Multicystatin &gt;gi|285803124|pdb|2W9P|B Chain B, Crystal Structure Of Potato Multicystatin &gt;gi|285803125|pdb|2W9P|C Chain C, Crystal Structure Of Potato Multicystatin &gt;gi|285803126|pdb|2W9P|D Chain D, Crystal Structure Of Potato Multicystatin &gt;gi|285803127|pdb|2W9P|E Chain E, Crystal Structure Of Potato Multicystatin &gt;gi|285803128|pdb|2W9P|F Chain F, Crystal Structure Of Potato Multicystatin &gt;gi|285803129|pdb|2W9P|G Chain G, Crystal Structure Of Potato Multicystatin &gt;gi|285803130|pdb|2W9P|H Chain H, Crystal Structure Of Potato Multicystatin &gt;gi|285803131|pdb|2W9P|I Chain I, Crystal Structure Of Potato Multicystatin &gt;gi|285803132|pdb|2W9P|J Chain J, Crystal Structure Of Potato Multicystatin &gt;gi|285803133|pdb|2W9P|K Chain K, Crystal Structure Of Potato Multicystatin &gt;gi|285803134|pdb|2W9P|L Chain L, Crystal Structure Of Potato Multicystatin &gt;gi|285803135|pdb|2W9P|M Chain M, Crystal Structure Of Potato Multicystatin &gt;gi|285803136|pdb|2W9P|N Chain N, Crystal Structure Of Potato Multicystatin &gt;gi|285803137|pdb|2W9Q|A Chain A, Crystal Structure Of Potato Multicystatin-P212121</Hit_def>
+  <Hit_accession>2W9P_A</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>1.46778</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>FAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYF</Hsp_qseq>
+      <Hsp_hseq>FAIQDYNKKQNA--HLEFVENLNVKEQVVAGIMYY</Hsp_hseq>
+      <Hsp_midline>FA+ +YNK  N   H   ++ +  ++Q+VAG+ Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|300508721|pdb|3MWZ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Selenomethionine Derivative Of The L 22,47, 100 M Mutant Of Sialostatin L2</Hit_def>
+  <Hit_accession>3MWZ_A</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>1.99352</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>LQVVRARKQIVAGVNYFFDVELGRTTCTKTQP-NFDNC</Hsp_qseq>
+      <Hsp_hseq>VEVXKVETQTVAGTNYRLTLKVAESTCELTSTYNKDTC</Hsp_hseq>
+      <Hsp_midline>++V +   Q VAG NY   +++  +TC  T   N D C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|28948777|pdb|1N9J|A</Hit_id>
+  <Hit_def>Chain A, Solution Structure Of The 3d Domain Swapped Dimer Of Stefin A &gt;gi|28948778|pdb|1N9J|B Chain B, Solution Structure Of The 3d Domain Swapped Dimer Of Stefin A &gt;gi|28948783|pdb|1NB3|I Chain I, Crystal Structure Of Stefin A In Complex With Cathepsin H: N-Terminal Residues Of Inhibitors Can Adapt To The Active Sites Of Endo-And Exopeptidases &gt;gi|28948786|pdb|1NB3|J Chain J, Crystal Structure Of Stefin A In Complex With Cathepsin H: N-Terminal Residues Of Inhibitors Can Adapt To The Active Sites Of Endo-And Exopeptidases &gt;gi|28948789|pdb|1NB3|K Chain K, Crystal Structure Of Stefin A In Complex With Cathepsin H: N-Terminal Residues Of Inhibitors Can Adapt To The Active Sites Of Endo-And Exopeptidases &gt;gi|28948792|pdb|1NB3|L Chain L, Crystal Structure Of Stefin A In Complex With Cathepsin H: N-Terminal Residues Of Inhibitors Can Adapt To The Active Sites Of Endo-And Exopeptidases &gt;gi|28948795|pdb|1NB5|I Chain I, Crystal Structure Of Stefin A In Complex With Cathepsin H &gt;gi|28948798|pdb|1NB5|J Chain J, Crystal Structure Of Stefin A In Complex With Cathepsin H &gt;gi|28948801|pdb|1NB5|K Chain K, Crystal Structure Of Stefin A In Complex With Cathepsin H &gt;gi|28948804|pdb|1NB5|L Chain L, Crystal Structure Of Stefin A In Complex With Cathepsin H &gt;gi|157830895|pdb|1DVC|A Chain A, Solution Nmr Structure Of Human Stefin A At Ph 5.5 And 308k, Nmr, Minimized Average Structure &gt;gi|157830896|pdb|1DVD|A Chain A, Solution Nmr Structure Of Human Stefin A At Ph 5.5 And 308k, Nmr, 17 Structures &gt;gi|262368171|pdb|3K9M|C Chain C, Cathepsin B In Complex With Stefin A &gt;gi|262368173|pdb|3K9M|D Chain D, Cathepsin B In Complex With Stefin A &gt;gi|310942698|pdb|3KFQ|C Chain C, Unreduced Cathepsin V In Complex With Stefin A &gt;gi|310942699|pdb|3KFQ|D Chain D, Unreduced Cathepsin V In Complex With Stefin A &gt;gi|313103782|pdb|3KSE|D Chain D, Unreduced Cathepsin L In Complex With Stefin A &gt;gi|313103783|pdb|3KSE|E Chain E, Unreduced Cathepsin L In Complex With Stefin A &gt;gi|313103784|pdb|3KSE|F Chain F, Unreduced Cathepsin L In Complex With Stefin A</Hit_def>
+  <Hit_accession>1N9J_A</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>2.09617</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>VRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELG</Hsp_qseq>
+      <Hsp_hseq>IQEIVDKVKPQLEEKTNETYGK--LEAVQYKTQVVAGTNYYIKVRAG</Hsp_hseq>
+      <Hsp_midline>++  +D    +  + +N+ Y    L+ V+ + Q+VAG NY+  V  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|15988456|pdb|1GD3|A</Hit_id>
+  <Hit_def>Chain A, Refined Solution Structure Of Human Cystatin A &gt;gi|157830774|pdb|1CYU|A Chain A, Solution Nmr Structure Of Recombinant Human Cystatin A Under The Condition Of Ph 3.8 And 310k &gt;gi|157830775|pdb|1CYV|A Chain A, Solution Nmr Structure Of Recombinant Human Cystatin A Under The Condition Of Ph 3.8 And 310k</Hit_def>
+  <Hit_accession>1GD3_A</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>2.13788</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>VRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVELG</Hsp_qseq>
+      <Hsp_hseq>IQEIVDKVKPQLEEKTNETYGK--LEAVQYKTQVVAGTNYYIKVRAG</Hsp_hseq>
+      <Hsp_midline>++  +D    +  + +N+ Y    L+ V+ + Q+VAG NY+  V  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|85544463|pdb|2CX5|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Putative Trans-Editing Enzyme For Prolyl Trna Synthetase &gt;gi|85544464|pdb|2CX5|B Chain B, Crystal Structure Of A Putative Trans-Editing Enzyme For Prolyl Trna Synthetase &gt;gi|85544465|pdb|2CX5|C Chain C, Crystal Structure Of A Putative Trans-Editing Enzyme For Prolyl Trna Synthetase &gt;gi|85544466|pdb|2CX5|D Chain D, Crystal Structure Of A Putative Trans-Editing Enzyme For Prolyl Trna Synthetase &gt;gi|160286325|pdb|2Z0K|A Chain A, Crystal Structure Of Prox-Alasa Complex From T. Thermophilus &gt;gi|160286350|pdb|2Z0X|A Chain A, Crystal Structure Of Prox-cyssa Complex From T. Thermophilus</Hit_def>
+  <Hit_accession>2CX5_A</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>2.64569</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>GKPPRLVGGPMDASVEEEGVRRALDFAVG</Hsp_qseq>
+      <Hsp_hseq>GKATRLVGGPLRQATPEE-VRELTGFAIG</Hsp_hseq>
+      <Hsp_midline>GK  RLVGGP+  +  EE VR    FA+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|588292978|pdb|4LZI|A</Hit_id>
+  <Hit_def>Chain A, Characterization Of Solanum Tuberosum Multicystatin And Significance Of Core Domains</Hit_def>
+  <Hit_accession>4LZI_A</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.70458</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>FAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYF</Hsp_qseq>
+      <Hsp_hseq>FAVHQYNKDQNA--HLEFVENLNVKKQVVAGMLYY</Hsp_hseq>
+      <Hsp_midline>FAV +YNK  N   H   ++ +  +KQ+VAG+ Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|10120873|pdb|1QKT|A</Hit_id>
+  <Hit_def>Chain A, Mutant Estrogen Nuclear Receptor Ligand Binding Domain Complexed With Estradiol &gt;gi|83754196|pdb|2AYR|A Chain A, A Serm Designed For The Treatment Of Uterine Leiomyoma With Unique Tissue Specificity For Uterus And Ovaries In Rats &gt;gi|157835843|pdb|2Q70|A Chain A, Estrogen Receptor Alpha Ligand-Binding Domain Complxed To A Benzopyran Ligand &gt;gi|157835844|pdb|2Q70|B Chain B, Estrogen Receptor Alpha Ligand-Binding Domain Complxed To A Benzopyran Ligand &gt;gi|158429470|pdb|2POG|A Chain A, Benzopyrans As Selective Estrogen Receptor B Agonists (Serbas). Part 2: Structure Activity Relationship Studies On The Benzopyran Scaffold. &gt;gi|158429471|pdb|2POG|B Chain B, Benzopyrans As Selective Estrogen Receptor B Agonists (Serbas). Part 2: Structure Activity Relationship Studies On The Benzopyran Scaffold. &gt;gi|158430144|pdb|2QE4|A Chain A, Estrogen Receptor Alpha Ligand-Binding Domain In Complex With A Benzopyran Agonist &gt;gi|158430145|pdb|2QE4|B Chain B, Estrogen Receptor Alpha Ligand-Binding Domain In Complex With A Benzopyran Agonist &gt;gi|178847253|pdb|2R6W|A Chain A, Estrogen Receptor Alpha Ligand-Binding Domain Complexed To A Serm &gt;gi|178847254|pdb|2R6W|B Chain B, Estrogen Receptor Alpha Ligand-Binding Domain Complexed To A Serm &gt;gi|178847256|pdb|2R6Y|A Chain A, Estrogen Receptor Alpha Ligand-Binding Domain In Complex With A Serm &gt;gi|178847257|pdb|2R6Y|B Chain B, Estrogen Receptor Alpha Ligand-Binding Domain In Complex With A Serm</Hit_def>
+  <Hit_accession>1QKT_A</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>3.25323</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQ-----GTMTFSKSTCQD</Hsp_qseq>
+      <Hsp_hseq>ADRELVHMINW-----------AKRVPGFVDLTLHDQVHLLESAWLEILMIGLVWRSMEHPGKLLFAPNLLLD</Hsp_hseq>
+      <Hsp_midline>A +++V  +N+            K  P F +   HDQ HL   A+    +  + W+     G + F+ +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|38492777|pdb|1PCG|A</Hit_id>
+  <Hit_def>Chain A, Helix-Stabilized Cyclic Peptides As Selective Inhibitors Of Steroid Receptor-Coactivator Interactions &gt;gi|38492778|pdb|1PCG|B Chain B, Helix-Stabilized Cyclic Peptides As Selective Inhibitors Of Steroid Receptor-Coactivator Interactions &gt;gi|118138021|pdb|2I0J|A Chain A, Benzopyrans Are Selective Estrogen Receptor Beta Agonists (Serbas) With Novel Activity In Models Of Benign Prostatic Hyperplasia &gt;gi|118138022|pdb|2I0J|B Chain B, Benzopyrans Are Selective Estrogen Receptor Beta Agonists (Serbas) With Novel Activity In Models Of Benign Prostatic Hyperplasia &gt;gi|118138023|pdb|2I0J|C Chain C, Benzopyrans Are Selective Estrogen Receptor Beta Agonists (Serbas) With Novel Activity In Models Of Benign Prostatic Hyperplasia &gt;gi|118138024|pdb|2I0J|D Chain D, Benzopyrans Are Selective Estrogen Receptor Beta Agonists (Serbas) With Novel Activity In Models Of Benign Prostatic Hyperplasia</Hit_def>
+  <Hit_accession>1PCG_A</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>3.29653</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQ-----GTMTFSKSTCQD</Hsp_qseq>
+      <Hsp_hseq>ADRELVHMINW-----------AKRVPGFVDLTLHDQVHLLESAWLEILMIGLVWRSMEHPGKLLFAPNLLLD</Hsp_hseq>
+      <Hsp_midline>A +++V  +N+            K  P F +   HDQ HL   A+    +  + W+     G + F+ +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|334359076|pdb|2YAT|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Estradiol Derived Metal Chelate And Estrogen Receptor-Ligand Binding Domain Complex</Hit_def>
+  <Hit_accession>2YAT_A</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>3.65893</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQ-----GTMTFSKSTCQD</Hsp_qseq>
+      <Hsp_hseq>ADRELVHMINW-----------AKRVPGFVDLTLHDQVHLLESAWLEILMIGLVWRSMEHPGKLLFAPNLLLD</Hsp_hseq>
+      <Hsp_midline>A +++V  +N+            K  P F +   HDQ HL   A+    +  + W+     G + F+ +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|939186481|pdb|5AAV|B</Hit_id>
+  <Hit_def>Chain B, Optimization Of A Novel Binding Motif To To (e)-3-(3,5- Difluoro-4-((1r,3r)-2-(2-fluoro-2-methylpropyl)-3-methyl-2, 3,4,9-tetrahydro-1h-pyrido(3,4-b)indol-1-yl)phenyl)acrylic Acid (azd9496), A Potent And Orally Bioavailable Selective Estrogen Receptor Downregulator And Antagonist</Hit_def>
+  <Hit_accession>5AAV_B</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>3.69331</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQ-----GTMTFSKSTCQD</Hsp_qseq>
+      <Hsp_hseq>ADRELVHMINW-----------AKRVPGFVDLTLHDQVHLLESAWLEILMIGLVWRSMEHPGKLLFAPNLLLD</Hsp_hseq>
+      <Hsp_midline>A +++V  +N+            K  P F +   HDQ HL   A+    +  + W+     G + F+ +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1002351024|pdb|2MZV|A</Hit_id>
+  <Hit_def>Chain A, Resonance Assignments And Secondary Structure Of A Phytocystatin From Sesamum Indicum</Hit_def>
+  <Hit_accession>2MZV_A</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>3.73976</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>FAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFFDVEL</Hsp_qseq>
+      <Hsp_hseq>FAVDQHNTKENGLL--ELVRVVEAREQVVAGTLHHLVLEV</Hsp_hseq>
+      <Hsp_midline>FAV ++N   N +     ++VV AR+Q+VAG  +   +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|963119423|pdb|5ACC|A</Hit_id>
+  <Hit_def>Chain A, A Novel Oral Selective Estrogen Receptor Down-regulator, Azd9496, Drives Tumour Growth Inhibition In Estrogen Receptor Positive And Esr1 Mutant Models &gt;gi|988087321|pdb|5FQR|A Chain A, Selective Estrogen Receptor Downregulator Antagonists: Tetrahydroisoquinoline Phenols 2.</Hit_def>
+  <Hit_accession>5ACC_A</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>3.74332</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQ-----GTMTFSKSTCQD</Hsp_qseq>
+      <Hsp_hseq>ADRELVHMINW-----------AKRVPGFVDLTLHDQVHLLESAWLEILMIGLVWRSMEHPGKLLFAPNLLLD</Hsp_hseq>
+      <Hsp_midline>A +++V  +N+            K  P F +   HDQ HL   A+    +  + W+     G + F+ +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|33358187|pdb|1UOM|A</Hit_id>
+  <Hit_def>Chain A, The Structure Of Estrogen Receptor In Complex With A Selective And Potent Tetrahydroisochiolin Ligand. &gt;gi|60594042|pdb|1XQC|A Chain A, X-Ray Structure Of Eralpha Lbd Bound To A Tetrahydroisoquinoline Serm Ligand At 2.05a Resolution &gt;gi|60594043|pdb|1XQC|B Chain B, X-Ray Structure Of Eralpha Lbd Bound To A Tetrahydroisoquinoline Serm Ligand At 2.05a Resolution &gt;gi|60594044|pdb|1XQC|C Chain C, X-Ray Structure Of Eralpha Lbd Bound To A Tetrahydroisoquinoline Serm Ligand At 2.05a Resolution &gt;gi|60594045|pdb|1XQC|D Chain D, X-Ray Structure Of Eralpha Lbd Bound To A Tetrahydroisoquinoline Serm Ligand At 2.05a Resolution</Hit_def>
+  <Hit_accession>1UOM_A</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>3.80809</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQ-----GTMTFSKSTCQD</Hsp_qseq>
+      <Hsp_hseq>ADRELVHMINW-----------AKRVPGFVDLTLHDQVHLLESAWLEILMIGLVWRSMEHPGKLLFAPNLLLD</Hsp_hseq>
+      <Hsp_midline>A +++V  +N+            K  P F +   HDQ HL   A+    +  + W+     G + F+ +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|401871336|pdb|3UU7|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of Hera-Lbd (Y537s) In Complex With Bisphenol-A &gt;gi|751361532|pdb|4TV1|A Chain A, Crystal Structure Of Hera-lbd (y537s) In Complex With Propylparaben</Hit_def>
+  <Hit_accession>3UU7_B</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>3.8291</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQ-----GTMTFSKSTCQD</Hsp_qseq>
+      <Hsp_hseq>ADRELVHMINW-----------AKRVPGFVDLTLHDQVHLLEXAWLEILMIGLVWRSMEHPGKLLFAPNLLLD</Hsp_hseq>
+      <Hsp_midline>A +++V  +N+            K  P F +   HDQ HL   A+    +  + W+     G + F+ +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|939186480|pdb|5AAV|A</Hit_id>
+  <Hit_def>Chain A, Optimization Of A Novel Binding Motif To To (e)-3-(3,5- Difluoro-4-((1r,3r)-2-(2-fluoro-2-methylpropyl)-3-methyl-2, 3,4,9-tetrahydro-1h-pyrido(3,4-b)indol-1-yl)phenyl)acrylic Acid (azd9496), A Potent And Orally Bioavailable Selective Estrogen Receptor Downregulator And Antagonist</Hit_def>
+  <Hit_accession>5AAV_A</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>3.87007</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQ-----GTMTFSKSTCQD</Hsp_qseq>
+      <Hsp_hseq>ADRELVHMINW-----------AKRVPGFVDLTLHDQVHLLESAWLEILMIGLVWRSMEHPGKLLFAPNLLLD</Hsp_hseq>
+      <Hsp_midline>A +++V  +N+            K  P F +   HDQ HL   A+    +  + W+     G + F+ +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|73536194|pdb|2AA2|A</Hit_id>
+  <Hit_def>Chain A, Mineralocorticoid Receptor With Bound Aldosterone &gt;gi|73536197|pdb|2AA5|A Chain A, Mineralocorticoid Receptor With Bound Progesterone &gt;gi|73536198|pdb|2AA5|B Chain B, Mineralocorticoid Receptor With Bound Progesterone &gt;gi|73536201|pdb|2AA7|A Chain A, Mineralocorticoid Receptor With Bound Deoxycorticosterone</Hit_def>
+  <Hit_accession>2AA2_A</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>4.28324</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>KTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQG</Hsp_qseq>
+      <Hsp_hseq>KVLPGFKNLPLEDQITLIQYSWMSLSSFALSWRS</Hsp_hseq>
+      <Hsp_midline>K  P F N P  DQ  L + ++ S   +A+ W+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|494619|pdb|1STF|I</Hit_id>
+  <Hit_def>Chain I, The Refined 2.4 Angstroms X-Ray Crystal Structure Of Recombinant Human Stefin B In Complex With The Cysteine Proteinase Papain: A Novel Type Of Proteinase Inhibitor Interaction</Hit_def>
+  <Hit_accession>1STF_I</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>4.38302</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>LQVVRARKQIVAGVNYFFDVELG</Hsp_qseq>
+      <Hsp_hseq>FKAVSFKSQVVAGTNYFIKVHVG</Hsp_hseq>
+      <Hsp_midline> + V  + Q+VAG NYF  V +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|145579988|pdb|2OCT|A</Hit_id>
+  <Hit_def>Chain A, Stefin B (Cystatin B) Tetramer &gt;gi|145579989|pdb|2OCT|B Chain B, Stefin B (Cystatin B) Tetramer</Hit_def>
+  <Hit_accession>2OCT_A</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>4.38302</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>LQVVRARKQIVAGVNYFFDVELG</Hsp_qseq>
+      <Hsp_hseq>FKAVSFKSQVVAGTNYFIKVHVG</Hsp_hseq>
+      <Hsp_midline> + V  + Q+VAG NYF  V +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|988087320|pdb|5FQP|A</Hit_id>
+  <Hit_def>Chain A, Selective Estrogen Receptor Downregulator Antagonists: Tetrahydroisoquinoline Phenols 1. &gt;gi|988087322|pdb|5FQS|A Chain A, Selective Estrogen Receptor Downregulator Antagonists: Tetrahydroisoquinoline Phenols 3. &gt;gi|988087323|pdb|5FQT|A Chain A, Selective Estrogen Receptor Downregulator Antagonists: Tetrahydroisoquinoline Phenols 4. &gt;gi|988087324|pdb|5FQV|A Chain A, Selective Estrogen Receptor Downregulator Antagonists: Tetrahydroisoquinoline Phenols 5.</Hit_def>
+  <Hit_accession>5FQP_A</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>4.42947</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQ-----GTMTFSKSTCQD</Hsp_qseq>
+      <Hsp_hseq>ADRELVHMINW-----------AKRVPGFVDLTLHDQVHLLESAWLEILMIGLVWRSMEHPGKLLFAPNLLLD</Hsp_hseq>
+      <Hsp_midline>A +++V  +N+            K  P F +   HDQ HL   A+    +  + W+     G + F+ +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|810516842|pdb|5AK2|A</Hit_id>
+  <Hit_def>Chain A, Oxyphenylpropenoic Acids As Oral Selective Estrogen Receptor Down-regulators. &gt;gi|810516843|pdb|5AK2|B Chain B, Oxyphenylpropenoic Acids As Oral Selective Estrogen Receptor Down-regulators.</Hit_def>
+  <Hit_accession>5AK2_A</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>4.45417</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQ-----GTMTFSKSTCQD</Hsp_qseq>
+      <Hsp_hseq>ADRELVHMINW-----------AKRVPGFVDLTLHDQVHLLESAWLEILMIGLVWRSMEHPGKLLFAPNLLLD</Hsp_hseq>
+      <Hsp_midline>A +++V  +N+            K  P F +   HDQ HL   A+    +  + W+     G + F+ +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|939186478|pdb|5AAU|A</Hit_id>
+  <Hit_def>Chain A, Optimization Of A Novel Binding Motif To To (e)-3-(3,5- Difluoro-4-((1r,3r)-2-(2-fluoro-2-methylpropyl)-3-methyl-2, 3,4,9-tetrahydro-1h-pyrido(3,4-b)indol-1-yl)phenyl)acrylic Acid (azd9496), A Potent And Orally Bioavailable Selective Estrogen Receptor Downregulator And Antagonist &gt;gi|939186479|pdb|5AAU|B Chain B, Optimization Of A Novel Binding Motif To To (e)-3-(3,5- Difluoro-4-((1r,3r)-2-(2-fluoro-2-methylpropyl)-3-methyl-2, 3,4,9-tetrahydro-1h-pyrido(3,4-b)indol-1-yl)phenyl)acrylic Acid (azd9496), A Potent And Orally Bioavailable Selective Estrogen Receptor Downregulator And Antagonist</Hit_def>
+  <Hit_accession>5AAU_A</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>4.49439</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQ-----GTMTFSKSTCQD</Hsp_qseq>
+      <Hsp_hseq>ADRELVHMINW-----------AKRVPGFVDLTLHDQVHLLESAWLEILMIGLVWRSMEHPGKLLFAPNLLLD</Hsp_hseq>
+      <Hsp_midline>A +++V  +N+            K  P F +   HDQ HL   A+    +  + W+     G + F+ +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|401871335|pdb|3UU7|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Hera-Lbd (Y537s) In Complex With Bisphenol-A &gt;gi|401871348|pdb|3UUD|B Chain B, Crystal Structure Of Hera-Lbd (Y537s) In Complex With Estradiol &gt;gi|751361533|pdb|4TV1|B Chain B, Crystal Structure Of Hera-lbd (y537s) In Complex With Propylparaben</Hit_def>
+  <Hit_accession>3UU7_A</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>4.53078</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQ-----GTMTFSKSTCQD</Hsp_qseq>
+      <Hsp_hseq>ADRELVHMINW-----------AKRVPGFVDLTLHDQVHLLEXAWLEILMIGLVWRSMEHPGKLLFAPNLLLD</Hsp_hseq>
+      <Hsp_midline>A +++V  +N+            K  P F +   HDQ HL   A+    +  + W+     G + F+ +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|401871340|pdb|3UUA|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of Hera-Lbd (Y537s) In Complex With Bisphenol-Af &gt;gi|401871347|pdb|3UUD|A Chain A, Crystal Structure Of Hera-Lbd (Y537s) In Complex With Estradiol</Hit_def>
+  <Hit_accession>3UUA_B</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>4.53078</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQ-----GTMTFSKSTCQD</Hsp_qseq>
+      <Hsp_hseq>ADRELVHMINW-----------AKRVPGFVDLTLHDQVHLLEXAWLEILMIGLVWRSMEHPGKLLFAPNLLLD</Hsp_hseq>
+      <Hsp_midline>A +++V  +N+            K  P F +   HDQ HL   A+    +  + W+     G + F+ +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|955264619|pdb|4UDA|A</Hit_id>
+  <Hit_def>Chain A, Mr In Complex With Dexamethasone</Hit_def>
+  <Hit_accession>4UDA_A</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>4.57332</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>KTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQG</Hsp_qseq>
+      <Hsp_hseq>KVLPGFKNLPLEDQITLIQYSWMSLSSFALSWRS</Hsp_hseq>
+      <Hsp_midline>K  P F N P  DQ  L + ++ S   +A+ W+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|73536068|pdb|2A3I|A</Hit_id>
+  <Hit_def>Chain A, Structural And Biochemical Mechanisms For The Specificity Of Hormone Binding And Coactivator Assembly By Mineralocorticoid Receptor</Hit_def>
+  <Hit_accession>2A3I_A</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>4.84936</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>KTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQG</Hsp_qseq>
+      <Hsp_hseq>KVLPGFKNLPLEDQITLIQYSWMSLSSFALSWRS</Hsp_hseq>
+      <Hsp_midline>K  P F N P  DQ  L + ++ S   +A+ W+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1004171940|pdb|5HCV|A</Hit_id>
+  <Hit_def>Chain A, Identification Of Spirooxindole And Dibenzoxazepine Motifs As Potent Mineralocorticoid Receptor Antagonists &gt;gi|1004171941|pdb|5HCV|B Chain B, Identification Of Spirooxindole And Dibenzoxazepine Motifs As Potent Mineralocorticoid Receptor Antagonists &gt;gi|1004171942|pdb|5HCV|C Chain C, Identification Of Spirooxindole And Dibenzoxazepine Motifs As Potent Mineralocorticoid Receptor Antagonists</Hit_def>
+  <Hit_accession>5HCV_A</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>4.91914</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>KTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQG</Hsp_qseq>
+      <Hsp_hseq>KVLPGFKNLPLEDQITLIQYSWMSLSSFALSWRS</Hsp_hseq>
+      <Hsp_midline>K  P F N P  DQ  L + ++ S   +A+ W+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|609412429|pdb|4N6V|2</Hit_id>
+  <Hit_def>Chain 2, Partial Rotational Order Disorder Structure Of Human Stefin B &gt;gi|609412430|pdb|4N6V|1 Chain 1, Partial Rotational Order Disorder Structure Of Human Stefin B &gt;gi|609412431|pdb|4N6V|9 Chain 9, Partial Rotational Order Disorder Structure Of Human Stefin B &gt;gi|609412432|pdb|4N6V|8 Chain 8, Partial Rotational Order Disorder Structure Of Human Stefin B &gt;gi|609412433|pdb|4N6V|7 Chain 7, Partial Rotational Order Disorder Structure Of Human Stefin B &gt;gi|609412434|pdb|4N6V|6 Chain 6, Partial Rotational Order Disorder Structure Of Human Stefin B &gt;gi|609412435|pdb|4N6V|4 Chain 4, Partial Rotational Order Disorder Structure Of Human Stefin B &gt;gi|609412436|pdb|4N6V|3 Chain 3, Partial Rotational Order Disorder Structure Of Human Stefin B &gt;gi|609412437|pdb|4N6V|0 Chain 0, Partial Rotational Order Disorder Structure Of Human Stefin B &gt;gi|609412438|pdb|4N6V|5 Chain 5, Partial Rotational Order Disorder Structure Of Human Stefin B</Hit_def>
+  <Hit_accession>4N6V_2</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>5.0883</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>LQVVRARKQIVAGVNYFFDVELG</Hsp_qseq>
+      <Hsp_hseq>FKAVSFKSQVVAGTNYFIKVHVG</Hsp_hseq>
+      <Hsp_midline> + V  + Q+VAG NYF  V +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|401871339|pdb|3UUA|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Hera-Lbd (Y537s) In Complex With Bisphenol-Af</Hit_def>
+  <Hit_accession>3UUA_A</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>5.41085</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQ-----GTMTFSKSTCQD</Hsp_qseq>
+      <Hsp_hseq>ADRELVHMINW-----------AKRVPGFVDLTLHDQVHLLEXAWLEILMIGLVWRSMEHPGKLLFAPNLLLD</Hsp_hseq>
+      <Hsp_midline>A +++V  +N+            K  P F +   HDQ HL   A+    +  + W+     G + F+ +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|401871343|pdb|3UUC|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Hera-Lbd (Wt) In Complex With Bisphenol-C &gt;gi|401871344|pdb|3UUC|B Chain B, Crystal Structure Of Hera-Lbd (Wt) In Complex With Bisphenol-C &gt;gi|401871345|pdb|3UUC|C Chain C, Crystal Structure Of Hera-Lbd (Wt) In Complex With Bisphenol-C &gt;gi|401871346|pdb|3UUC|D Chain D, Crystal Structure Of Hera-Lbd (Wt) In Complex With Bisphenol-C</Hit_def>
+  <Hit_accession>3UUC_A</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>5.41085</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ARKQIVAGVNYFFDVELGRTTCTKTQPNFDNCPFHDQPHLKRKAFCSFQIYAVPWQ-----GTMTFSKSTCQD</Hsp_qseq>
+      <Hsp_hseq>ADRELVHMINW-----------AKRVPGFVDLTLHDQVHLLEXAWLEILMIGLVWRSMEHPGKLLFAPNLLLD</Hsp_hseq>
+      <Hsp_midline>A +++V  +N+            K  P F +   HDQ HL   A+    +  + W+     G + F+ +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>88033</Statistics_db-num>
+      <Statistics_db-len>21903153</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
+
