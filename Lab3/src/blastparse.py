@@ -15,18 +15,21 @@ blast_records = NCBIXML.parse(result_handle)
 #print(len(blast_records))
 #print(blast_records[0].alignments)
 output=list()
+j=0
 for record in blast_records:
         for alignment in record.alignments:
             # hsp = high scoring pair
             for hsp in alignment.hsps:
                 if (hsp.expect < threshold and re.search(pattern, alignment.title)):
-                    #print(record.query,end='\t')
+                    print(alignment.title)
                     assession_sub = alignment.title.split('lcl|')[1].split(' ')[0]
+                    j+=1
                     #print(assession_sub,end='\t')
                     #print(hsp.score,end='\t')
                     #print(hsp.expect)
                     output.append([record.query, assession_sub,hsp.score,hsp.expect])     
-
+if(j==0):
+    print('Warning: No hits') 
 
 sort_out=sorted(output,key=itemgetter(1, 3))
 #print(sort_out)
