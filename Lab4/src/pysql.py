@@ -3,18 +3,18 @@ import sqlite3 as sql
 
 
 def main():
-    conn = sql.connect('newdb.sqlite')
+    conn = sql.connect('final2.db')
     c = conn.cursor()
     print('---------QUERY 1-----------')
     q1 = 'SELECT COUNT(DISTINCT abbrev) FROM species;'
     result1=c.execute(q1)
     for row in result1:
         print(row[0])
-    print('---------QUERY 2-----------')    
+    '''print('---------QUERY 2-----------')    
     q2="INSERT INTO species(abbrev,name,common) VALUES ('Ss','Sus scrofa','Feral Pig');"
     result2=c.execute(q2)
     for row in result2:
-        print(row)
+        print(row) '''
     print('---------QUERY 3-----------')
     q3="SELECT  accession, species FROM protein WHERE length(sequence)>1000;"
     result3=c.execute(q3)

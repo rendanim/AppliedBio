@@ -1,0 +1,3 @@
+show tables like 'gene%';
+show tables like 'transcript%';
+show tables like 'exon%';
